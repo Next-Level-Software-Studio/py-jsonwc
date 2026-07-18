@@ -69,3 +69,8 @@ class TestCommentJsonDecode(TestDecode, CommentJsonTest):
                       'test case is not supported by commentjson.'))
     def test_negative_index(self):
         pass
+
+    @unittest.skipIf(version >= (3, 12),
+                     'Infinity as a value is not supported yet')
+    def test_parse_constant(self):
+        pass
