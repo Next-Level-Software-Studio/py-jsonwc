@@ -1,9 +1,7 @@
 import re
 import sys
 
-
 VERSION_RE = r'\'(([0-9]+\.){2}[0-9])\''
-
 
 if __name__ == '__main__':
     cmd = sys.argv[1]

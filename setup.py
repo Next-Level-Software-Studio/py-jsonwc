@@ -26,13 +26,13 @@ classifiers = ["Programming Language :: Python"]
 
 setup(name='commentjson',
       version=__version__,
-      url='https://github.com/vaidik/commentjson',
+      url='https://github.com/Next-Level-Software-Studio/py-jsonwc',
       packages=find_packages(),
       long_description=description,
       description=("Add Python and JavaScript style comments in your JSON "
                    "files."),
-      author="Vaidik Kapoor",
-      author_email="kapoor.vaidik@gmail.com",
+      author="Next Level Software Studio",
+      author_email="",
       include_package_data=True,
       zip_safe=False,
       classifiers=classifiers,

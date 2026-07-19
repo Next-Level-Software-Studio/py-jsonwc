@@ -1,5 +1,6 @@
 # Copyright 2021-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
@@ -7,13 +8,12 @@ PYTHON_COMPAT=( python3_{11..14} pypy3_11 )
 
 inherit distutils-r1
 
-DESCRIPTION="Add Python and JavaScript style comments in your JSON files"
+DESCRIPTION="processing JSON documents with various types os comments<"
 HOMEPAGE="
-	https://pypi.org/project/commentjson/
-	https://github.com/vaidik/commentjson/
+	https://github.com/Next-Level-Software-Studio/py-jsonwc
 "
 SRC_URI="
-	https://github.com/vaidik/commentjson/archive/v${PV}.tar.gz
+	https://github.com/Next-Level-Software-Studio/py-jsonwc/archive/v${PV}.tar.gz
 		-> ${P}.gh.tar.gz
 "
 
