@@ -34,11 +34,6 @@ BDEPEND="
 distutils_enable_tests unittest
 
 src_prepare() {
-	local PATCHES=(
-		# https://github.com/vaidik/commentjson/pull/54
-		"${FILESDIR}/${P}-py312.patch"
-	)
-
 	distutils-r1_src_prepare
 
 	# remove lark-parser dependency to allow painless upgrade to lark
