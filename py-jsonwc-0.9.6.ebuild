@@ -13,7 +13,7 @@ HOMEPAGE="
 	https://github.com/Next-Level-Software-Studio/py-jsonwc
 "
 SRC_URI="
-	https://github.com/Next-Level-Software-Studio/py-jsonwc/archive/refs/tagsv${PV}.tar.gz
+	https://github.com/Next-Level-Software-Studio/py-jsonwc/archive/refs/tags/v${PV}.tar.gz
 		-> ${P}.gh.tar.gz
 "
 
