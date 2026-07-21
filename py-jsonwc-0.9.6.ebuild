@@ -8,12 +8,12 @@ PYTHON_COMPAT=( python3_{11..14} pypy3_11 )
 
 inherit distutils-r1
 
-DESCRIPTION="processing JSON documents with various types os comments<"
+DESCRIPTION="processing JSON documents with various types of comments."
 HOMEPAGE="
 	https://github.com/Next-Level-Software-Studio/py-jsonwc
 "
 SRC_URI="
-	https://github.com/Next-Level-Software-Studio/py-jsonwc/archive/v${PV}.tar.gz
+	https://github.com/Next-Level-Software-Studio/py-jsonwc/archive/refs/tagsv${PV}.tar.gz
 		-> ${P}.gh.tar.gz
 "
 
