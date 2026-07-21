@@ -1,27 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Add JavaScript or Python style comments in JSON.
-
-commentjson (Comment JSON) is a Python package that helps you create JSON files
-with Python and JavaScript style inline comments. Its API is very similar to
-the Python standard library’s json module.
-
-"""
-
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
-from __future__ import unicode_literals
 
 import codecs
 import traceback
-
-try:
-    import json
-except ImportError:
-    # If python version is 2.5 or less, use simplejson
-    import simplejson as json
-
+import json
 
 import lark
 
