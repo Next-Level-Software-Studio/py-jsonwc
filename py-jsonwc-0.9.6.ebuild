@@ -36,6 +36,13 @@ distutils_enable_tests unittest
 src_prepare() {
 	distutils-r1_src_prepare
 
+	# Create empty README.rst to satisfy setup.py
+    touch "${S}/README.rst" || die
+
 	# remove lark-parser dependency to allow painless upgrade to lark
 	sed -e '/lark-parser/d' -i setup.py || die
+}
+
+src_install() {
+	rm "${D}/README.rst" || die
 }
